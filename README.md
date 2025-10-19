@@ -94,31 +94,63 @@
 
   </div>
 <!-- Google Map Section -->
-<h>Google Map</h>
+<!-- Google Map & Image Section -->
+<h2>Google Map</h2>
 <div class="map-section">
+  <!-- বাম পাশে ছবি -->
+  <div class="image-box">
+    <img src="sundarban-photo.jpg" alt="Sundarban View" />
+    <p class="image-caption">The Royal Bengal Tiger</p>
+  </div>
+
+  <!-- ডান পাশে ম্যাপ -->
   <div class="map-container">
-    <!-- এখানে তোমার নিজের Google Map এর Embed URL বসাও -->
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d86087.74604733392!2d89.29738063951623!3d21.9484131340132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a01ad003828a725%3A0x8de7bb23cb204815!2sSundarban%20(National%20Mangrove%20forest)%20Bangladesh!5e0!3m2!1sen!2sbd!4v1760852873363!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d86087.74604733392!2d89.29738063951623!3d21.9484131340132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a01ad003828a725%3A0x8de7bb23cb204815!2sSundarban%20(National%20Mangrove%20forest)%20Bangladesh!5e0!3m2!1sen!2sbd!4v1760852873363!5m2!1sen!2sbd"
       allowfullscreen=""
       loading="lazy"
       referrerpolicy="no-referrer-when-downgrade"
     ></iframe>
+  </div>
 </div>
 
 <style>
-  /* 🗺️ Google Map layout style */
+  /* 📍 Google Map + Image Layout */
   .map-section {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 25px;
     margin: 40px auto;
     max-width: 1000px;
-    padding: 0 20px;
+    flex-wrap: wrap; /* ছোট স্ক্রিনে একটার নিচে একটা আসবে */
   }
 
+  /* 🖼️ বাম পাশের ছবির বক্স */
+  .image-box {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+
+  .image-box img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  .image-caption {
+    margin-top: 10px;
+    font-weight: 600;
+    color: #1e3d2f;
+    font-size: 1.1em;
+  }
+
+  /* 🗺️ ডান পাশের ম্যাপ */
   .map-container {
     width: 100%;
-    max-width: 450px;   /* ম্যাপের সর্বোচ্চ প্রস্থ */
-    aspect-ratio: 4 / 3; /* রেসপন্সিভ অনুপাত */
+    max-width: 450px;
+    aspect-ratio: 4 / 3;
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
@@ -131,14 +163,14 @@
     display: block;
   }
 
-  /* মোবাইল ডিভাইসের জন্য */
+  /* 📱 মোবাইল ভিউ এর জন্য */
   @media (max-width: 768px) {
     .map-section {
-      justify-content: center;
+      flex-direction: column;
+      align-items: center;
     }
-    .map-container {
-      max-width: 100%;
-      aspect-ratio: 16 / 9;
+    .image-box, .map-container {
+      max-width: 90%;
     }
   }
 </style>
