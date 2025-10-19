@@ -176,7 +176,6 @@
   }
 </style>
     
-  </div>
 
   <footer>
     <p>© 2025 SIAM HASAN | Inspired by Nature</p>
