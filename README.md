@@ -177,6 +177,46 @@
     }
   }
 </style>
+
+<!-- 🗓️ Calendar Section -->
+<h2>Calendar</h2>
+<div class="calendar-section">
+  <iframe src="https://calendar.google.com/calendar/embed?src=md.shoshi3378%40gmail.com&ctz=UTC" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>" 
+    style="border:0" 
+    frameborder="0" 
+    scrolling="no">
+  </iframe>
+</div>
+
+<style>
+  /* 🗓️ Calendar Style */
+  .calendar-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 1000px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+
+  .calendar-section iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 500px;
+    border: none;
+    border-radius: 10px;
+  }
+
+  /* মোবাইল ডিভাইসের জন্য */
+  @media (max-width: 768px) {
+    .calendar-section iframe {
+      height: 400px;
+    }
+  }
+</style>
     
 
   <footer>
