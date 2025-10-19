@@ -181,10 +181,7 @@
 <h2>Calendar</h2>
 <div class="calendar-section">
   <iframe src="https://calendar.google.com/calendar/embed?src=md.shoshi3378%40gmail.com&ctz=UTC" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>" 
-    style="border:0" 
-    frameborder="0" 
-    scrolling="no">
-  </iframe>
+    
 </div>
 
 <style>
