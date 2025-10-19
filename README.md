@@ -102,6 +102,8 @@
   <div class="image-box">
     <img src="sundarban-photo.jpg" alt="sundarban-photo.jpg" />
     <p class="image-caption">The Royal Bengal Tiger</p>
+    <p>The most aggressive Animal</p>
+    <p>Sundarban, Bangladesh</p>
   </div>
 
   <!-- ডান পাশে ম্যাপ -->
