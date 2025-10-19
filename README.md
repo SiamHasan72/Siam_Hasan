@@ -92,6 +92,152 @@ Job No- 03
         Home to the legendary Royal Bengal Tiger, spotted deer, crocodiles, and exotic birds, the Sundarban is a sanctuary of both serenity and strength. Here, danger and peace coexist — the calm of the forest always holding a hint of wild power. As dawn breaks, mist rises gently over the waterways, and as evening falls, the forest glows in soft amber light, painting a scene that feels almost unreal. For those who visit, the Sundarban offers more than a journey into nature — it is a journey into silence, awe, and connection. It reminds us that true beauty lies in simplicity, balance, and respect for the natural world — a living reminder that even the wildest places on Earth breathe with quiet grace and timeless wonder.
       </p>
     </div>
+# siam_hasan.github.io
+Job No- 03
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SIAM HASAN - The Sundarban</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Poppins", sans-serif;
+      background-color: #eaf4ec;
+      color: #1e3d2f;
+      text-align: center;
+    }
+    header {
+      background: linear-gradient(120deg, #1e824c, #2ecc71);
+      color: white;
+      padding: 40px 20px;
+      border-bottom-left-radius: 30px;
+      border-bottom-right-radius: 30px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      margin-top: 10px;
+      font-size: 1.2em;
+    }
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+    .images {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .images img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+    .images img:hover {
+      transform: scale(1.05);
+    }
+    .description {
+      text-align: justify;
+      margin-top: 20px;
+      line-height: 1.7em;
+      font-size: 1.05em;
+    }
+    footer {
+      margin-top: 50px;
+      padding: 20px;
+      background: #1e824c;
+      color: white;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SIAM HASAN</h1>
+    <p>Roll: 875445</p>
+  </header>
+
+  <div class="container">
+    <h2>The Sundarban</h2>
+    <div class="images">
+      <img src="sundarban1.jpg" alt="Boat on river in Sundarban">
+      <img src="sundarban2.jpg" alt="Birds in Sundarban">
+      <img src="sundarban3.jpg" alt="Deer in Sundarban forest">
+    </div>
+
+    <div class="description">
+      <p>
+        The Sundarban, often called the emerald crown of Bangladesh, is one of the most enchanting and mysterious places on Earth. Stretching over thousands of square kilometers along the Bay of Bengal, it is the largest mangrove forest in the world — a living masterpiece shaped by the rhythm of tides and time. Its beauty lies not only in its vastness but in its harmony, where the land, water, and sky merge in perfect balance. Countless rivers and creeks twist through emerald greenery, their reflections shimmering under the golden sunlight. The air carries the scent of salt and wildflowers, while the sounds of chirping birds and whispering winds weave together a melody of life.
+      </p>
+      <p>
+        Home to the legendary Royal Bengal Tiger, spotted deer, crocodiles, and exotic birds, the Sundarban is a sanctuary of both serenity and strength. Here, danger and peace coexist — the calm of the forest always holding a hint of wild power. As dawn breaks, mist rises gently over the waterways, and as evening falls, the forest glows in soft amber light, painting a scene that feels almost unreal. For those who visit, the Sundarban offers more than a journey into nature — it is a journey into silence, awe, and connection. It reminds us that true beauty lies in simplicity, balance, and respect for the natural world — a living reminder that even the wildest places on Earth breathe with quiet grace and timeless wonder.
+      </p>
+    </div>
+  </div>
+<!-- Google Map Section -->
+<div class="map-section">
+  <div class="map-container">
+    <!-- এখানে তোমার নিজের Google Map এর Embed URL বসাও -->
+    <iframe
+      src="<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14639.905805793138!2d91.1872716!3d23.4613139!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37547f47667ee13d%3A0xf6ea6ad7897fabe0!2sTrip%20Up%20Cumilla!5e0!3m2!1sen!2sbd!4v1760852378476!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+  </div>
+</div>
+
+<style>
+  /* 🗺️ Google Map layout style */
+  .map-section {
+    display: flex;
+    justify-content: flex-end;
+    margin: 40px auto;
+    max-width: 1000px;
+    padding: 0 20px;
+  }
+
+  .map-container {
+    width: 100%;
+    max-width: 450px;   /* ম্যাপের সর্বোচ্চ প্রস্থ */
+    aspect-ratio: 4 / 3; /* রেসপন্সিভ অনুপাত */
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  .map-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+  }
+
+  /* মোবাইল ডিভাইসের জন্য */
+  @media (max-width: 768px) {
+    .map-section {
+      justify-content: center;
+    }
+    .map-container {
+      max-width: 100%;
+      aspect-ratio: 16 / 9;
+    }
+  }
+</style>
+    
   </div>
 
   <footer>
