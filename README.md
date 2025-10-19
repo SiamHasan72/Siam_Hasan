@@ -100,7 +100,7 @@
 <div class="map-section">
   <!-- বাম পাশে ছবি -->
   <div class="image-box">
-    <img src="sundarban-photo.jpg" alt="Sundarban View" />
+    <img src="sundarban-photo.jpg" alt="sundarban-photo.jpg" />
     <p class="image-caption">The Royal Bengal Tiger</p>
   </div>
 
